@@ -1,2 +1,2 @@
-# portfolio
+# Portfolio
 WordPress Theme
