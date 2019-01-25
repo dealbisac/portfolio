@@ -33,7 +33,7 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#"><i class="fa fa-phone"></i> +65 2244 1100</a></li>
+                         <li><a href="#"><i class="fa fa-phone"></i> 9843681599</a></li>
                     </ul>
                </div>
 
