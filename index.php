@@ -314,7 +314,7 @@ get_header();
 
                                              <div class="courses-info">
                                                   <div class="courses-author">
-                                                       <img src="images/author-image3.jpg" class="img-responsive" alt="">
+                                                       <img src="<?php get_theme_file_uri('/images/author-image3.jpg'); ?>" class="img-responsive" alt="">
                                                        <span>Catherine</span>
                                                   </div>
                                                   <div class="courses-price free">
