@@ -390,8 +390,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
-	background-position: center;
+    background-position: center;
   }
 
   .home-slider .item-second {
