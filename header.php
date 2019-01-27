@@ -18,7 +18,7 @@
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <a href="#" class="navbar-brand">Known</a>
+                    <a href="#" class="navbar-brand"><?php echo "Portfolio"; ?></a>
                </div>
 
                <!-- MENU LINKS -->
