@@ -4,6 +4,7 @@ get_header();
 
 ?>
 
+
 <!-- HOME -->
 <section id="home">
           <div class="row">
@@ -13,7 +14,7 @@ get_header();
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-6 col-sm-12">
-                                             <h1>Distance Learning Education Center</h1>
+                                             <h1>Portfolio</h1>
                                              <h3>Our online courses are designed to fit in your industry supporting all-round with latest technologies.</h3>
                                              <a href="#feature" class="section-btn btn btn-default smoothScroll">Discover more</a>
                                         </div>
