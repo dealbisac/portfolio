@@ -10,7 +10,7 @@ get_header();
           <div class="row">
 
                     <div class="owl-carousel owl-theme home-slider">
-                         <div class="item item-first"  style="background-image: url(<?php echo get_theme_file_uri('images/slider-image1.jpg')?>); ">
+                         <div class="item item-first"  style="background-image: url('<?php echo get_theme_file_uri('images/slider-image1.jpg')?>');">
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-6 col-sm-12">
@@ -153,7 +153,7 @@ get_header();
                     <div class="col-md-3 col-sm-6">
                          <div class="team-thumb">
                               <div class="team-image">
-                                   <img src="images/author-image1.jpg" class="img-responsive" alt="">
+                                   <img src="<?php echo get_theme_file_uri('/images/author-image1.jpg'); ?>" class="img-responsive" alt="">
                               </div>
                               <div class="team-info">
                                    <h3>Mark Wilson</h3>
