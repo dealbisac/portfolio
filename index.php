@@ -9,7 +9,7 @@ get_header();
           <div class="row">
 
                     <div class="owl-carousel owl-theme home-slider">
-                         <div class="item item-first">
+                         <div class="item item-first"  style="background-image: url(<?php echo get_theme_file_uri('images/slider-image1.jpg')?>); ">
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-6 col-sm-12">
@@ -237,7 +237,7 @@ get_header();
                                         <div class="courses-thumb">
                                              <div class="courses-top">
                                                   <div class="courses-image">
-                                                       <img src="images/courses-image1.jpg" class="img-responsive" alt="">
+                                                       <img src="<?php echo get_theme_file_uri('/images/courses-image1.jpg') ?>" class="img-responsive" alt="">
                                                   </div>
                                                   <div class="courses-date">
                                                        <span><i class="fa fa-calendar"></i> 12 / 7 / 2018</span>
@@ -314,7 +314,7 @@ get_header();
 
                                              <div class="courses-info">
                                                   <div class="courses-author">
-                                                       <img src="<?php get_theme_file_uri('/images/author-image3.jpg'); ?>" class="img-responsive" alt="">
+                                                       <img src="<?php echo get_theme_file_uri('/images/author-image3.jpg'); ?>" class="img-responsive" alt="">
                                                        <span>Catherine</span>
                                                   </div>
                                                   <div class="courses-price free">
@@ -516,7 +516,7 @@ get_header();
 
                     <div class="col-md-6 col-sm-12">
                          <div class="contact-image">
-                              <img src="images/contact-image.jpg" class="img-responsive" alt="Smiling Two Girls">
+                              <img src="<?php echo get_theme_file_uri('images/contact-image.jpg') ?>" class="img-responsive" alt="Smiling Two Girls">
                          </div>
                     </div>
 
