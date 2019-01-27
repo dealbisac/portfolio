@@ -14,7 +14,7 @@ function portfolio_style(){
     wp_enqueue_style('fontawesome', get_theme_file_uri('/fonts/FontAwesome.otf'));
 
     #JS Files
-    wp_enqueue_script('bootstrap_min_js', get_theme_file_uri('/js/bootstrap.min.js'), array(), false, 'all');
+    wp_enqueue_script('bootstrap_min_js', get_theme_file_uri('/js/bootstrap.min.js'), array(), 1.2, 'all');
     wp_enqueue_script('custom_js', get_theme_file_uri('/js/custom.js'), array(), false, 'all');
     wp_enqueue_script('jquery_js', get_theme_file_uri('/js/jquery.js'), array(), false, 'all');
     wp_enqueue_script('owl_carousel_js', get_theme_file_uri('/js/owl.carousel.min.js'), array(), false, 'all');
