@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <head> 
-<?php wp_head(); ?>
 <title> Portfolio </title>
+<?php wp_head(); ?>
 </head>
 <body>
 
