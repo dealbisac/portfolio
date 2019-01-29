@@ -5,7 +5,6 @@ get_header();
 ?>
 
 
-
 <!-- HOME SECTION -->
 <section id="home" class="parallax-section">
      <div class="container">
@@ -13,7 +12,7 @@ get_header();
 
                <div class="col-md-offset-5 col-md-7 col-sm-12">
                     <div class="home-thumb">
-                         <h1 class="wow fadeInUp" data-wow-delay="0.4s">Hello, I am Kalay.</h1>
+                         <h1 class="wow fadeInUp" data-wow-delay="0.4s">Hello, I am Dipendra.</h1>
                          <p class="wow fadeInUp white-color" data-wow-delay="0.6s">Praesent eleifend tristique nisl, nec finibus urna posuere nec. Quisque vel nunc eget arcu maximus facilisis non eu nisi. Aliquam ullamcorper est a nisl imperdiet luctus.</p>
                          <a href="#service" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s">discover more</a>
                     </div>
@@ -79,7 +78,7 @@ get_header();
                
                <div class="col-md-4 col-sm-8">
                     <div class="about-image-thumb">
-                         <img src="images/profile-image.jpg" class="wow fadeInUp img-responsive" data-wow-delay="0.2s" alt="about image">
+                         <img src="<?php echo get_theme_file_uri('/images/profile-img.jpg') ?>" class="wow fadeInUp img-responsive" data-wow-delay="0.2s" alt="about image">
                          <ul class="social-icon">
                               <li><a href="#" class="fa fa-facebook"></a></li>
                               <li><a href="#" class="fa fa-twitter"></a></li>
@@ -93,7 +92,7 @@ get_header();
                     <div class="about-thumb">
                          <!-- SECTION TITLE -->
                          <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
-                              <h2>a little more about Kalay</h2>
+                              <h2>a little more about Dipendra</h2>
                               <p>Graphic Designer, Creative Photographer & Front-end Developer</p>
                          </div>
                          <div class="wow fadeInUp" data-wow-delay="0.8s">
@@ -124,12 +123,12 @@ get_header();
                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
                     <!-- WORK THUMB -->
                     <div class="work-thumb">
-                         <a href="images/work-image1.jpg" class="image-popup">
+                         <a href="<?php echo get_theme_file_uri('/images/work-image1.jpg'); ?>" class="image-popup">
                               <div class="work-thumb-overlay">
                                    <h4 class="white-color">First Title</h4>
                                    <h2>Graphic Design</h2>
                               </div>
-                              <img src="images/work-image1.jpg" class="img-responsive" alt="Work 1">
+                              <img src="<?php echo get_theme_file_uri('/images/work-image1.jpg'); ?>" class="img-responsive" alt="Work 1">
                          </a>
                     </div>
                </div>
@@ -142,7 +141,7 @@ get_header();
                                    <h4 class="white-color">Title Two</h4>
                                    <h2>Photography</h2>
                               </div>
-                              <img src="images/work-image2.jpg" class="img-responsive" alt="Work 2">
+                              <img src="<?php echo get_theme_file_uri('/images/work-image2.jpg') ?>" class="img-responsive" alt="Work 2">
                          </a>
                     </div>
                </div>
@@ -155,7 +154,7 @@ get_header();
                                    <h4 class="white-color">Third Title</h4>
                                    <h2>illustration</h2>
                               </div>
-                              <img src="images/work-image3.jpg" class="img-responsive" alt="Work 3">
+                              <img src="<?php echo get_theme_file_uri('/images/work-image3.jpg') ?>" class="img-responsive" alt="Work 3">
                          </a>
                     </div>
                </div>
