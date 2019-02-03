@@ -78,6 +78,8 @@ get_header();
                
                <div class="col-md-4 col-sm-8">
                     <div class="about-image-thumb">
+                    <p> <?php echo get_theme_file_uri(); ?> </p>
+
                          <img src="<?php echo get_theme_file_uri('/images/profile-img.jpg') ?>" class="wow fadeInUp img-responsive" data-wow-delay="0.2s" alt="about image">
                          <ul class="social-icon">
                               <li><a href="#" class="fa fa-facebook"></a></li>
