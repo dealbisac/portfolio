@@ -1,5 +1,10 @@
 <?php
 
+function pagetitle(){
+    add_theme_support('title-tag');
+}
+add_action('after_setup_theme', 'pagetitle');
+
 function portfolio_style(){
 
     wp_enqueue_style('portfolio_default_style', get_stylesheet_uri());
