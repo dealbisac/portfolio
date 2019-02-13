@@ -5,6 +5,7 @@ function pagetitle(){
 }
 add_action('after_setup_theme', 'pagetitle');
 
+
 function portfolio_style(){
 
     wp_enqueue_style('portfolio_default_style', get_stylesheet_uri());
@@ -16,7 +17,7 @@ function portfolio_style(){
     wp_enqueue_style('magnific_popup_style', get_theme_file_uri('/css/magnific-popup.css'));
 
     #Font Files
-    wp_enqueue_style('fontawesome', get_theme_file_uri('/fonts/FontAwesome.otf'));
+    #wp_enqueue_style('fontawesome', get_theme_file_uri('/fonts/FontAwesome.otf'));
 
     #JS Files
     wp_enqueue_script('bootstrap_min_js', get_theme_file_uri('/js/bootstrap.min.js'), array(), 1.2, 'all');
