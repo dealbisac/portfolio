@@ -190,9 +190,10 @@ the_post();?>
                          <a href="<?php echo get_theme_file_uri('/images/work-image1.jpg'); ?>" class="image-popup">
                               <div class="work-thumb-overlay">
                                    <h4 class="white-color"><a href="<?php the_permalink();?>"><?php the_title(); ?> </a></h4>
-                                   <h2>Graphic Design</h2>
+                                   <h2 class="white-color"><?php the_title(); ?></h2>
+                                   <p> <?php the_excerpt(); ?> </p>
                               </div>
-                              <p> <?php the_excerpt(); ?> </p>
+                              
                               <img src="<?php echo get_theme_file_uri('/images/work-image1.jpg'); ?>" class="img-responsive" alt="Work 1">
                          </a>
                     </div>
@@ -258,24 +259,4 @@ the_post();?>
      </div>
 </section>
 
-
-<!-- FOOTER SECTION -->
-<footer>
-    <div class="container">
-        <div class="row">
-
-               <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.8s">
-                    <p class="white-color">Copyright &copy; 2017 Your Company 
-                    | Design: Tooplate</p>
-                    <div class="wow fadeInUp" data-wow-delay="1s">
-                         <ul class="social-icon">
-                              <li><a href="#" class="fa fa-facebook"></a></li>
-                              <li><a href="#" class="fa fa-twitter"></a></li>
-                              <li><a href="#" class="fa fa-instagram"></a></li>
-                              <li><a href="#" class="fa fa-behance"></a></li>
-                              <li><a href="#" class="fa fa-github"></a></li>
-                         </ul>
-                    </div>
-          </div>
-     </div>
-</footer>
+<?php get_footer(); ?>
