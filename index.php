@@ -166,6 +166,47 @@ get_header();
 </section>
 
 
+<!-- POST SECTION -->
+<section id="work" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <!-- SECTION TITLE -->
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                         <h2>Recent Blogs</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
+                    </div>
+               </div>
+
+               <?php 
+while(have_posts()){
+the_post();?>
+
+
+               <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                         <a href="<?php echo get_theme_file_uri('/images/work-image1.jpg'); ?>" class="image-popup">
+                              <div class="work-thumb-overlay">
+                                   <h4 class="white-color"><a href="<?php the_permalink();?>"><?php the_title(); ?> </a></h4>
+                                   <h2>Graphic Design</h2>
+                              </div>
+                              <p> <?php the_excerpt(); ?> </p>
+                              <img src="<?php echo get_theme_file_uri('/images/work-image1.jpg'); ?>" class="img-responsive" alt="Work 1">
+                         </a>
+                    </div>
+               </div>
+
+               <?php
+}
+?>
+
+          </div>
+     </div>
+</section>
+
+
 <!-- CONTACT SECTION -->
 <section id="contact" class="parallax-section">
      <div class="container">
@@ -238,21 +279,3 @@ get_header();
           </div>
      </div>
 </footer>
-
-
-    
-
-
-<?php 
-while(have_posts()){
-the_post();?>
-
-<h1> <a href="<?php the_permalink();?>"><?php the_title(); ?> </a></h1>
-<p> <?php the_content(); ?> </p>
-
-<?php
-}
-?>
-
-
-<?php get_footer(); ?>
