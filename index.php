@@ -185,7 +185,7 @@ the_post();?>
 
 
                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
-                    <!-- WORK THUMB -->
+                    <!-- BLOG THUMB -->
                     <div class="work-thumb">
                          <a href="<?php echo get_theme_file_uri('/images/work-image1.jpg'); ?>" class="image-popup">
                               <div class="work-thumb-overlay">
