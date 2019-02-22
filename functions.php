@@ -41,7 +41,6 @@ register_nav_menus(
         'top-menu' => __('Primary Menu', 'theme'),
         'footer-menu' => __('Footer Menu', 'theme'),
         'sidebar-menu' => __('Sidebar Menu', 'theme'),
-
     )
 );
 

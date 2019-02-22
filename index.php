@@ -25,7 +25,16 @@ get_header();
 
 <!-- MENU SECTION -->
 
-<div>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="menu">
+     <ul>
+          <?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
+     </ul>
+
+</div>
+</nav> -->
+
+<!-- <div>
 <ul>
 <li> <a href="#home">Home</a></li>
 <li> <a href="#service">Service</a></li>
@@ -35,7 +44,7 @@ get_header();
 <li> <a href="#contact">Contact</a></li>
 </ul>
 
-</div>
+</div> -->
 
 <!-- SERVICE SECTION -->
 <section id="service" class="parallax-section">
